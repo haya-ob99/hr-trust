@@ -876,14 +876,14 @@ a {
                 position: absolute;
                 width: 100%;
                 visibility: hidden;
-              }
-              
-              .form-tab.active {
+            }
+
+            .form-tab.active {
                 opacity: 1;
                 transform: translateX(0);
                 visibility: visible;
                 position: relative;
-              }
+            }
 
             .tabs {
                 display: flex;
@@ -1020,6 +1020,13 @@ form {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .custom-select:has(.select-options li.selected) .select-header {
+        border: 1px solid #6D758F;
+        font-weight: 500;
+        background-color: #F2F1FA;
+        color: var(--black-color);
     }
 
     .select-header .select-arrow {
