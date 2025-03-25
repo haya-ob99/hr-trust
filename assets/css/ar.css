@@ -1,0 +1,97 @@
+.founder-message {
+    .container {
+        .message {
+            &::before {
+                left: 0;
+                right: auto;
+            }
+        }
+    }
+}
+
+#executive-search .container {
+    .content {
+        .accordion-container {
+            .accordion-title {
+                &::before {
+                    right: -23px;
+                    left: auto;
+                }
+            }
+        }
+    }
+}
+
+#coaching .container {
+    .content {
+        .box {
+            h4 {
+                &::before {
+                    right: 0;
+                    left: auto;
+                }
+            }
+        }
+    }
+}
+
+.services-section {
+    & .section-title {
+        & a {
+            .arrow-icon {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+.hero {
+    .swiper {
+        .swiper-slide {
+            .hero-pattern {
+                right: 0;
+            }
+
+            .hero-overlay {
+                background: linear-gradient(to left, #2D2B53 0%, #2d2b5300 100%);
+            }
+        }
+    }
+}
+
+.hero-section {
+    &::before {
+        background: linear-gradient(to left, #2D2B53 0%, #2d2b5300 100%);
+    }
+
+}
+
+.btn {
+    flex-direction: row-reverse;
+
+    img {
+        rotate: 180deg;
+    }
+}
+
+.clients-logos {
+    .client-content {
+        .content {
+            .box {
+                h4 {
+                    &::before {
+                        left: auto;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero-section {
+    .hero-pattern {
+        left: auto;
+        right: 0;
+    }
+}
