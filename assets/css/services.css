@@ -716,64 +716,11 @@
 
     .service-input {
       input {
-        background-color: var(--secondary-color);
-        color: var(--white-color);
-        font-weight: 600;
+        border: 1px solid #6D758F;
+        font-weight: 500;
+        background-color: #F2F1FA;
+        color: var(--black-color);
       }
-    }
-
-    .custom-select {
-      position: relative;
-      width: 100%;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    .select-header {
-      font-size: 16px;
-      width: 100%;
-      box-shadow: var(--drop-shadow);
-      border-radius: 6px;
-      border: 1px solid var(--stroke-color);
-      padding: 0 16px;
-      height: 56px;
-      color: var(--text-color);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .select-header .select-arrow {
-      margin-left: 10px;
-      transition: transform 0.3s ease;
-    }
-
-    .custom-select.open .select-header .select-arrow {
-      transform: rotate(180deg);
-    }
-
-    .select-options {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: none;
-      position: absolute;
-      top: 108%;
-      width: 100%;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      z-index: 100;
-    }
-
-    .select-options li {
-      padding: 12px;
-      transition: background 0.3s;
-    }
-
-    .select-options li.selected {
-      background: var(--secondary-color);
-      color: #fff;
     }
 
     .message-input {
