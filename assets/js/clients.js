@@ -2,9 +2,9 @@ const contentData = {
     1: {
         title: "Human Resources Transformation Project for",
         companyName: "Dr Abdulaziz Alajaji",
-        goal: ["Human Capital Transformation", "Executive Talent Acquisition"],
+        section: "Health (private section)",
         solution:
-            ["Development of the operational model for business units.",
+            ["Attracting executives to a range of critical positions.", "Development of the operational model for business units.",
                 "Development of the organizational structure, task manuals, and business scope.",
                 "Functional analysis and matrix of functional groups and families.",
                 "Job descriptions.",
@@ -26,22 +26,26 @@ const contentData = {
             "Career development and growth"
         ],
         image: "./assets/images/service1.png",
+        year: "2023 - 2024",
+        duration: "12"
     },
     2: {
         title: "Human Resources Transformation Project for",
         companyName: "Leejam",
-        goal: ["Attracting Executives and Supervisors"],
+        section: "Sports (private section)",
         solution:
             ["Human Resources field.", "Supply Chain field.",
                 "Project Management field.", "Real Estate Management field.", "Consulting for the Board of Directors."
             ],
         steps: ["Attracting Executives and Supervisors"],
         image: "./assets/images/service1.png",
+        year: "2024 - 2025",
+        duration: "12"
     },
     3: {
         title: "Human Resources Transformation Project for",
         companyName: "Water Transmission and technologies co.",
-        goal: ["Project for Transferring Civil Service Employees from the Saline Water Conversion Corporation (SWCC) to the Water Transmission & Technologies Company (WTTCO)"],
+        section: "Desalination and water transportation (government section)",
         solution:
             ["Implementation of the employee transfer journey according to approved plans",
                 "Launch and activation of the digital job offers platform",
@@ -58,35 +62,39 @@ const contentData = {
             "Developing new employee orientation and support services program"
         ],
         image: "./assets/images/service1.png",
+        year: "2024 - 2025",
+        duration: "9"
     },
     4: {
         title: "Human Resources Transformation Project for",
         companyName: "Esnad",
-        goal: ["Study and development of conditions and benefits for the regulatory sector, with improvements to job satisfaction and employee engagement.", "Consultancy and general supervision services"],
+        section: "Industry and mining (government section)",
         solution:
             ["Job Satisfaction and Employee Engagement Report",
                 "Identification of gaps, improvement areas, and development opportunities",
                 "Results of workload analysis studies",
                 "Results of workforce analysis studies",
                 "Results of financial impact analysis for current state",
-                "Development of benefits, incentives, rewards, and compensation packages for the regulatory sector",
+                "Development of benefits, incentives, rewards, and compensation packages for the regulatory section",
                 "Benchmarking analysis of financial impact before and after development recommendations",
-                "General supervision of human capital sector",
+                "General supervision of human capital section",
                 "Acting as Secretary General for Compensation and Nominations Committee"
             ],
         steps: [
-            "Study and measurement of employee satisfaction and engagement in the regulatory sector",
-            "Study of benefits, incentives, rewards, and compensation packages for the regulatory sector",
+            "Study and measurement of employee satisfaction and engagement in the regulatory section",
+            "Study of benefits, incentives, rewards, and compensation packages for the regulatory section",
             "Oversight of executive talent acquisition",
             "Special Advisor to the CEO",
-            "General supervision of the human capital sector"
+            "General supervision of the human capital section"
         ],
         image: "./assets/images/service1.png",
+        year: "2023 - 2024",
+        duration: "15"
     },
     5: {
         title: "Human Resources Transformation Project for",
         companyName: "Engineer Holding Group",
-        goal: ["Attraction of Executive and Supervisory Talents"],
+        section: "Investment, media, manufacturing, hospitality, and real estate (private section)",
         solution:
             ["Attracting a group of executive-level talents, such as the Chief Financial Officer (CFO).",
                 "A report on the search results for targeted talents.",
@@ -100,11 +108,13 @@ const contentData = {
             "Executive talent acquisition."
         ],
         image: "./assets/images/service1.png",
+        year: "2022",
+        duration: "4"
     },
     6: {
         title: "Human Resources Transformation Project for",
         companyName: "Fuchsia",
-        goal: ["Attraction of Executive and Supervisory Talents"],
+        section: "baked goods and sweets (private section)",
         solution:
             ["Attracting a Chief Executive Officer (CEO) for Al-Ahsa Bakeries and Fauchier.",
                 "A report on the search results for targeted talents.",
@@ -118,33 +128,30 @@ const contentData = {
             "Attracting executives."
         ],
         image: "./assets/images/service1.png",
+        year: "2022",
+        duration: "4"
     },
     7: {
         title: "Human Resources Transformation Project for",
         companyName: "Masah",
-        goal: ["Transforming Human Capital"],
+        section: "Contracting (private section)",
         solution:
-            ["Wages, Benefits, Incentives, Perks, Rewards, and Compensations",
-                "Functional Performance Management System (Including All Related Components)",
-                "Functional Competencies"
+            ["Business Unit Operating Model Development",
+                "Organizational Structure Development, Task Manuals, and Business Scope",
+                "Functional Analysis & Matrix of Functional Groups and Families", "Job Descriptions", "Performance Management System, Policy, and Templates (Including All Related Components)",
+                "HR Policies and Procedures", "Framework and Dictionaries for Leadership, Core, and Technical Competencies", "Comprehensive Incentives Framework & Strategy", " Knowledge Transfer Workshops & Focus Groups"
             ],
         steps: [
-            "Business Unit Operating Model Development",
-            "Organizational Structure Development, Task Manuals, and Business Scope",
-            "Functional Analysis & Matrix of Functional Groups and Families",
-            "Job Descriptions",
-            "Performance Management System, Policy, and Templates (Including All Related Components)",
-            "HR Policies and Procedures",
-            "Framework and Dictionaries for Leadership, Core, and Technical Competencies",
-            "Comprehensive Incentives Framework & Strategy",
-            "Knowledge Transfer Workshops & Focus Groups"
+            "Corporate organizational structure.", "Wages, Benefits, Incentives, Perks, Rewards, and Compensations", "Functional Performance Management System (Including All Related Components)", "Functional Competencies."
         ],
         image: "./assets/images/service1.png",
+        year: "2023",
+        duration: "6"
     },
     8: {
         title: "Human Resources Transformation Project for",
         companyName: "AgriServ",
-        goal: ["Talent Acquisition (Executives & All Functional Levels)"],
+        section: "Agriculture and services (government section)",
         solution:
             ["Attracting a group of talents at the executive level, such as the Chief Financial Officer (CFO).",
                 "A report on the results of the search for targeted talents.",
@@ -155,11 +162,13 @@ const contentData = {
             ],
         steps: ["Talent Acquisition (Executives & All Organizational Levels)"],
         image: "./assets/images/service1.png",
+        year: "2024",
+        duration: "12"
     },
     9: {
         title: "Human Resources Transformation Project for",
         companyName: "CHERRY - CAR RENTAL",
-        goal: ["Institutional Transformation"],
+        section: "Transportation and logistics services (private section)",
         solution:
             ["Development of the operating model for business units.",
                 "Development of the organizational structure, task manuals, and scope of work.",
@@ -178,11 +187,13 @@ const contentData = {
             "Job competencies."
         ],
         image: "./assets/images/service1.png",
+        year: "2022 - 2023",
+        duration: "6"
     },
     10: {
         title: "Human Resources Transformation Project for",
         companyName: "Almajdiah Residence",
-        goal: ["Strategy Planning and Implementation", "Organizational Transformation and Excellence"],
+        section: "Real estate (private section)",
         solution:
             ["Strategy review",
                 "Setting objectives and KPIs for executives and project owners",
@@ -213,6 +224,8 @@ const contentData = {
             "Roles of the Managing Director and executives"
         ],
         image: "./assets/images/service1.png",
+        year: "2024",
+        duration: "12"
     },
     11: {
         title: "Human Resources Transformation Project for",
@@ -239,11 +252,13 @@ const contentData = {
             "Talent Development & Succession Planning"
         ],
         image: "./assets/images/service1.png",
+        year: "2025",
+        duration: "6"
     },
     12: {
         title: "Human Resources Transformation Project for",
         companyName: "Alhasa Auto Bakery",
-        goal: ["Attraction of Executive and Supervisory Talents"],
+        section: "baked goods and sweets (private section)",
         solution:
             ["Attracting a Chief Executive Officer (CEO) for Al-Ahsa Bakeries and Fauchier.",
                 "A report on the search results for targeted talents.",
@@ -257,6 +272,8 @@ const contentData = {
             "Attracting executives."
         ],
         image: "./assets/images/service1.png",
+        year: "2022",
+        duration: "4"
     },
 };
 
@@ -272,18 +289,19 @@ const updateContent = (swiper) => {
           <h2>
             ${content.title} <strong>${content.companyName}</strong>
           </h2>
+          <span>Contract duration: ${content.duration} Months , Year : ${content.year}</span>
           <div class="box goal">
-            <h4>Project Goal:</h4>
-            <ul>${content.goal.map((el) => `<li>${el}</li>`).join("")}</ul>
+            <h4>Section:</h4>
+            <ul><li>${content.section}</li></ul>
           </div>
           <div class="box solution">
-            <h4>How did HR-Trust develop the solution?</h4>
+            <h4>Most prominent outputs:</h4>
             <ul>
               ${content.solution.map((item) => `<li>${item}</li>`).join("")}
             </ul>
           </div>
           <div class="box steps">
-            <h4>Our Steps in resolving the issue:</h4>
+            <h4>Scope of Work:</h4>
             <ul>
               ${content.steps.map((step) => `<li>${step}</li>`).join("")}
             </ul>
