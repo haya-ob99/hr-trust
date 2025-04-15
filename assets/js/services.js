@@ -26,25 +26,25 @@ function setActiveTab(tabName) {
       image: "./assets/images/hero-service4.webp",
       title: "Expert HR Consulting Solutions",
       description:
-        "At HR-Trust, we deliver strategic HR Solutions crafted to optimize workforce efficiency, refine talent management frameworks, and drive holistic organizational development.",
+        "At HR-Trust, we provide strategic HR solutions designed to enhance workforce efficiency, elevate talent management systems, and promote comprehensive organizational growth.",
     },
     "executive-search": {
       image: "./assets/images/hero-service3.webp",
       title: "Pioneering Executive Search",
       description:
-        "At HR-Trust, we employ a structured and strategically aligned executive search process, designed to identify top-tier leadership talent capable of propelling organizational success and long-term value creation.",
+        "At HR-Trust, we utilize a structured and strategically aligned executive search process aimed at identifying high-caliber leadership talent that can drive organizational success and generate long-term value.",
     },
     coaching: {
       image: "./assets/images/hero-service2.webp",
       title: "Unlock Your Leadership Potential with Executive Coaching",
       description:
-        "At HR-Trust, we enable leaders to thrive through transformative executive coaching programs that strategically enhance leadership competencies, accelerate professional careers, and drive organizational impact",
+        "Our executive coaching cultivates leadership excellence, unlocks career potential, and inspires meaningful change",
     },
     training: {
       image: "./assets/images/hero-service1.webp",
       title: "Expert Training For Professionals",
       description:
-        "At HR-Trust, we believe that sustained organizational success is fundamentally driven by a culture of continuous learning and the strategic development of individual capabilities.",
+        "At HR-Trust, we believe that lasting organizational success is rooted in a culture of continuous learning and the purposeful development of individual potential.",
     },
   };
 

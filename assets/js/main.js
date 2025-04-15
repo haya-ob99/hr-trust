@@ -178,3 +178,32 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// Hover Services Cards
+document.querySelectorAll(".card").forEach((card, index) => {
+  const iconImg = card.querySelector("img");
+
+  const defaultSrc = iconImg.getAttribute("src");
+  const activeSrc = defaultSrc.replace("service-icon", "service-active-icon");
+
+  card.addEventListener("mouseenter", () => {
+    iconImg.setAttribute("src", activeSrc);
+  });
+
+  card.addEventListener("mouseleave", () => {
+    iconImg.setAttribute("src", defaultSrc);
+  });
+});
+// Navbar Home On Scroll
+window.addEventListener("scroll", function () {
+  const navHome = document.querySelector(".nav-home");
+  const logo = document.querySelector(".navbar .home-logo");
+
+  if (window.scrollY > 50) {
+    navHome.classList.add("scrolled");
+    logo.src = "./assets/images/logo.svg";
+  } else {
+    navHome.classList.remove("scrolled");
+    logo.src = "./assets/images/home-logo.svg";
+  }
+});

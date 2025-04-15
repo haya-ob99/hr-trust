@@ -3,6 +3,7 @@
 .nav-home {
   background-color: rgba(10, 61, 94, 30%);
   backdrop-filter: blur(5px);
+  transition: all 0.5s ease;
 
   .container {
     li {
@@ -29,6 +30,32 @@
       }
     }
   }
+
+  &.scrolled {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+    .container {
+      a {
+        color: var(--text-color);
+      }
+
+      li {
+        &::after {
+          background-color: var(--primary-color);
+        }
+      }
+
+      .lang-btn {
+        color: var(--text-color);
+
+        &::after {
+          background-color: var(--primary-color) !important;
+        }
+      }
+    }
+  }
+
 }
 
 /* ============= Home - Hero =============

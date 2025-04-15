@@ -1157,8 +1157,9 @@ form {
         margin: 0 30px;
 
         img {
-            width: 155px;
-            height: 80px;
+            width: 160px;
+            height: 65px;
+            object-fit: contain;
         }
     }
 
