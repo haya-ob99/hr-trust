@@ -209,7 +209,7 @@
 
   .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 32px;
 
     .card {
@@ -238,7 +238,7 @@
         transition: background-color 0.5s;
 
         img {
-          width: 28px;
+          width: 1.75em;
         }
 
         &.active {
@@ -247,7 +247,7 @@
       }
 
       h3 {
-        font-size: 28px;
+        font-size: 1.75em;
         font-weight: 700;
         color: var(--secondary-color);
         transition: color 0.3s;
@@ -266,6 +266,7 @@
       }
     }
   }
+
 
   .read-more-link a {
     color: var(--text-color);
@@ -378,6 +379,21 @@
 /* ========== Responsive Design ==========
  ========================================= */
 @media screen and (max-width: 992px) {
+  .services-section {
+    .cards {
+      gap: 16px;
+
+      .card {
+        border-radius: 16px;
+        padding: 20px;
+
+        h3 {
+          font-size: 1.25em;
+        }
+      }
+    }
+  }
+
   .hero {
     .swiper {
       .swiper-slide {
@@ -410,6 +426,12 @@
 }
 
 @media screen and (max-width: 769px) {
+  .services-section {
+    .cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
   .logos-section {
     .section-title {
       h2 {

@@ -1274,6 +1274,43 @@ footer {
     }
 }
 
+/* ========= Privacy - Terms ==============
+ ========================================= */
+.privacy-terms-sections {
+    .container {
+        .box {
+            margin-bottom: 40px;
+
+            h3 {
+                color: var(--secondary-color);
+                font-size: 24px;
+                margin-bottom: 10px;
+                position: relative;
+                font-weight: 700;
+                padding-inline: 16px;
+                line-height: 22px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 6px;
+                    height: 100%;
+                    background-color: var(--primary-color);
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%) skewY(30deg);
+                }
+            }
+
+            p {
+                color: var(--text-color);
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
 /* ========= Responsive Design ==============
  ========================================= */
 @media screen and (min-width:1367px) {

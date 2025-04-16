@@ -161,6 +161,7 @@
       font-size: 18px;
       color: var(--text-color);
       line-height: 30px;
+      padding-top: 32px;
     }
 
     .cards {
@@ -250,7 +251,6 @@
 
   .active .accordion-content {
     max-height: 100%;
-    padding-top: 32px;
   }
 }
 
@@ -371,9 +371,9 @@
           margin-bottom: 8px;
           font-weight: 700;
           padding-inline: 16px;
-          padding-top: 2px;
           position: relative;
           height: 31px;
+          line-height: 31px;
 
           &::before {
             content: "";
@@ -610,7 +610,7 @@
 
 .request-service {
   .request-service-content {
-    background-image: url("./../images/contact-img.png");
+    background-image: url("./../images/contact-img.webp");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;

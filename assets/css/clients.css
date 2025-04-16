@@ -1,6 +1,48 @@
 /* ============= Clients Logo =============
  ======================================== */
 .clients-logos {
+    .all-clients-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        justify-items: center;
+        gap: 12px;
+
+        .client-card {
+            width: 100%;
+            height: 105px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 22px;
+            transition: transform 0.3s, opacity 0.3s;
+            font-size: 24px;
+            background-color: #fafaff;
+            border-radius: 15px;
+            padding: 10px 30px;
+            cursor: pointer;
+            position: relative;
+
+            img {
+                width: 160px;
+                height: 65px;
+                object-fit: contain;
+            }
+        }
+
+        .client-card-active::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 15px;
+            padding: 2px;
+            background: linear-gradient(114.58deg, #60c0ca 18.62%, #3fcb89 81.38%);
+            -webkit-mask: linear-gradient(white 0 0) content-box,
+                linear-gradient(white 0 0);
+            -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+        }
+    }
+
     .client-content {
         margin-top: 56px;
         display: grid;
@@ -11,13 +53,15 @@
             opacity: 0;
             transform: translateX(-50px);
             animation: slideInLeft 0.8s ease-out forwards;
+
             h2 {
                 font-size: 36px;
                 font-weight: 700;
                 margin-bottom: 8px;
                 text-transform: capitalize;
             }
-            span{
+
+            span {
                 display: block;
                 margin-bottom: 32px;
                 color: var(--text-color);
@@ -35,9 +79,17 @@
                 color: var(--text-color);
             }
 
-            ul li {
+            ul > li {
                 color: var(--text-color);
                 list-style-type: disc;
+                list-style-position: inside;
+                margin-bottom: 4px;
+                padding-left: 16px;
+                line-height: 30px;
+            }
+            ol > li {
+                color: var(--text-color);
+                list-style-type: decimal;
                 list-style-position: inside;
                 margin-bottom: 4px;
                 padding-left: 16px;
@@ -49,10 +101,10 @@
                     color: var(--secondary-color);
                     margin-bottom: 8px;
                     font-weight: 700;
-                    padding-inline: 16px;
-                    padding-top: 2px;
+                    padding-inline: 15px;
                     position: relative;
-                    height: 27px;
+                    height: 23px;
+                    line-height: 23px;
 
                     &::before {
                         content: "";
