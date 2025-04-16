@@ -16,7 +16,7 @@
             border-radius: 22px;
             transition: transform 0.3s, opacity 0.3s;
             font-size: 24px;
-            background-color: #fafaff;
+            /* background-color: #fafaff; */
             border-radius: 15px;
             padding: 10px 30px;
             cursor: pointer;
@@ -29,6 +29,9 @@
             }
         }
 
+        .client-card-active {
+            background-color: #fafaff;
+        }
         .client-card-active::before {
             content: "";
             position: absolute;
