@@ -290,12 +290,12 @@
         &::before {
           content: attr(data-step);
           position: absolute;
-          left: -23px;
-          top: 50%;
+          left: -27px;
+          top: 29%;
           transform: translateY(-50%);
-          font-size: 96px;
+          font-size: 77px;
           font-weight: 900;
-          color: #f2f1fa;
+          color: #e7e6f2;
           z-index: -1;
           opacity: 0;
           transition: opacity 0.3s ease-in-out;
