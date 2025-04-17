@@ -290,7 +290,7 @@
         &::before {
           content: attr(data-step);
           position: absolute;
-          left: -27px;
+          left: -40px;
           top: 29%;
           transform: translateY(-50%);
           font-size: 77px;
@@ -902,6 +902,10 @@
       .accordion-container {
         .accordion-title {
           font-size: 24px;
+
+          &::before {
+            left: -20px;
+          }
         }
 
         .accordion-item {

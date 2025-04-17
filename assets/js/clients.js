@@ -72,7 +72,7 @@ const allContentData = {
             "Attraction and recruitment of talents.",
             "Executive talent acquisition."
         ],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img5.webp",
         year: "2022",
         duration: "4"
     },
