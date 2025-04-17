@@ -95,7 +95,7 @@ const allContentData = {
         steps: [
             "Corporate organizational structure.", "Wages, Benefits, Incentives, Perks, Rewards, and Compensations", "Functional Performance Management System (Including All Related Components)", "Functional Competencies."
         ],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img7.webp",
         year: "2023",
         duration: "6"
     },
