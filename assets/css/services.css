@@ -372,8 +372,6 @@
           font-weight: 700;
           padding-inline: 16px;
           position: relative;
-          height: 31px;
-          line-height: 31px;
 
           &::before {
             content: "";

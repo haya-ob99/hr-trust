@@ -13,7 +13,7 @@ const allContentData = {
             "Executive recruitment",
             "Career development and growth"
         ],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img1.jpg",
         year: "2023 - 2024",
         duration: "12"
     },
@@ -22,7 +22,7 @@ const allContentData = {
         companyName: "Leejam",
         section: "Sports (private section)",
         steps: ["Attracting Executives and Supervisors"],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img2.jpg",
         year: "2024 - 2025",
         duration: "12"
     },
@@ -45,7 +45,7 @@ const allContentData = {
             "Establishing a governance, risk, and compliance framework (including regulations, policies, procedures, and contracts)",
             "Designing a new employee orientation and support services program"
         ],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img3.jpg",
         year: "2024 - 2025",
         duration: "9"
     },
@@ -60,7 +60,7 @@ const allContentData = {
             "Special Advisor to the CEO",
             "General supervision of the human capital section"
         ],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img4.png",
         year: "2023 - 2024",
         duration: "15"
     },
@@ -84,7 +84,7 @@ const allContentData = {
             "Attracting and recruiting talents.",
             "Attracting executives."
         ],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img6.jpg",
         year: "2022",
         duration: "4"
     },
@@ -104,7 +104,7 @@ const allContentData = {
         companyName: "AgriServ",
         section: "Agriculture and services (government section)",
         steps: ["Talent Acquisition (Executives & All Organizational Levels)"],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img8.png",
         year: "2024",
         duration: "12"
     },
@@ -118,7 +118,7 @@ const allContentData = {
             "Performance management system and all its components.",
             "Job competencies."
         ],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img9.jpg",
         year: "2022 - 2023",
         duration: "6"
     },
@@ -137,7 +137,7 @@ const allContentData = {
             "Career development and growth",
             "Roles of the Managing Director and executives"
         ],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img10.png",
         year: "2024",
         duration: "12"
     },
@@ -152,7 +152,7 @@ const allContentData = {
             "Functional Competencies.",
             "Talent Development & Succession Planning"
         ],
-        image: "./assets/images/service1.png",
+        image: "./assets/images/client-img11.jpg",
         year: "2025",
         duration: "6"
     },

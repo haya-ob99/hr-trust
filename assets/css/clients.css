@@ -16,11 +16,12 @@
             border-radius: 22px;
             transition: transform 0.3s, opacity 0.3s;
             font-size: 24px;
-            /* background-color: #fafaff; */
+            background-color: #fafaff;
             border-radius: 15px;
             padding: 10px 30px;
             cursor: pointer;
             position: relative;
+            border: 2px solid #e4e3ee;
 
             img {
                 width: 160px;
@@ -29,9 +30,6 @@
             }
         }
 
-        .client-card-active {
-            background-color: #fafaff;
-        }
         .client-card-active::before {
             content: "";
             position: absolute;
@@ -43,6 +41,9 @@
                 linear-gradient(white 0 0);
             -webkit-mask-composite: destination-out;
             mask-composite: exclude;
+        }
+        .client-card-active{
+            border: none;
         }
     }
 

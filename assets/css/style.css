@@ -1269,7 +1269,12 @@ footer {
         .part-two {
             padding-block: 32px;
             text-align: center;
+            display: flex;
+            justify-content: space-between;
             color: #9795B5;
+            a{
+                color: #9795B5;
+            }
         }
     }
 }
@@ -1284,7 +1289,7 @@ footer {
             h3 {
                 color: var(--secondary-color);
                 font-size: 24px;
-                margin-bottom: 10px;
+                margin-bottom: 12px;
                 position: relative;
                 font-weight: 700;
                 padding-inline: 16px;
@@ -1302,10 +1307,18 @@ footer {
                 }
             }
 
-            p {
+            p,
+            ul {
                 color: var(--text-color);
-                font-size: 16px;
+                font-size: 17px;
                 line-height: 30px;
+                text-align: justify;
+            }
+
+            ul li {
+                list-style-type: disc;
+                list-style-position: inside;
+                padding-inline: 16px;
             }
         }
     }
