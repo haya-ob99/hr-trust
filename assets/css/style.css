@@ -1275,18 +1275,22 @@ footer {
             flex-wrap: wrap;
             gap: 16px;
             color: #9795B5;
-            a{
+
+            a {
                 color: #9795B5;
             }
-            .right{
+
+            .right {
                 display: flex;
                 gap: 16px;
                 align-items: center;
             }
-            .vision-logo{
+
+            .vision-logo {
                 width: 90px;
                 height: 100%;
-                img{
+
+                img {
                     width: 100%;
                     height: 100%;
                 }
@@ -1309,7 +1313,7 @@ footer {
                 position: relative;
                 font-weight: 700;
                 padding-inline: 16px;
-                line-height: 22px;
+                line-height: 25px;
 
                 &::before {
                     content: "";
@@ -1512,6 +1516,22 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+    .privacy-terms-sections {
+        .container {
+            .box {
+                h3 {
+                    font-size: 20px;
+                }
+
+                p,
+                ul {
+                    color: var(--text-color);
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
     .logo {
         max-width: 160px;
     }
